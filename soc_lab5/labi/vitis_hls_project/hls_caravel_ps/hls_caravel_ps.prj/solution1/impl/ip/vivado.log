@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov 22 02:28:34 2023
+# Process ID: 3096
+# Current directory: /home/ubuntu/Desktop/labi/vitis_hls_project/hls_caravel_ps/hls_caravel_ps.prj/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/ubuntu/Desktop/labi/vitis_hls_project/hls_caravel_ps/hls_caravel_ps.prj/solution1/impl/ip/vivado.log
+# Journal file: /home/ubuntu/Desktop/labi/vitis_hls_project/hls_caravel_ps/hls_caravel_ps.prj/solution1/impl/ip/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 3408.000 MHz, CPU Physical cores: 4, Host memory: 10424 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2894.512 ; gain = 0.023 ; free physical = 5766 ; free virtual = 8940
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 22 02:28:56 2023...
