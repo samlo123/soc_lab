@@ -18,13 +18,13 @@ module syn_fifo #(parameter DEPTH=4, DATA_WIDTH=8) (
     end
 	
 	// To write data to FIFO
-	if(w_en & !full)begin
+    if(w_en & !full)begin
       fifo[w_ptr] <= data_in;
       w_ptr <= w_ptr + 1;
     end
 	
 	// To read data from FIFO
-	if(r_en & !empty) begin
+    if(r_en & !empty) begin
       data_out <= fifo[r_ptr];
       r_ptr <= r_ptr + 1;
     end
